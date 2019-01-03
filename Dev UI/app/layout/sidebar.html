@@ -1,0 +1,34 @@
+<div class="sidebar" data-active-color="rose" data-background-color="black" data-image="assets/img/sidebar-1.jpg" theme-init>
+            <!--
+        Tip 1: You can change the color of active element of the sidebar using: data-active-color="purple | blue | green | orange | red | rose"
+        Tip 2: you can also add an image using data-image tag
+        Tip 3: you can change the color of the sidebar with data-background-color="white | black"
+    -->
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/img/ms-academy-logo.png"/>
+                </a>
+            </div>
+            <div class="sidebar-wrapper">
+                <ul class="nav">
+                    <li ui-sref-active="active">
+                        <a ui-sref="main.enquiryList" role="button">
+                            <i class="material-icons">find_in_page</i>
+                            <p> Enquiries </p>
+                        </a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="main.admissionList" role="button">
+                            <i class="material-icons">account_box</i>
+                            <p> Admissions </p>
+                        </a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="main.reports" role="button">
+                            <i class="material-icons">trending_up</i>
+                            <p> Reports </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>

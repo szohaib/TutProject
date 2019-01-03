@@ -1,0 +1,9 @@
+.login-page footer ul li a,.login-page .copyright {
+    color: transparent !important;
+}
+.top-buffer{
+        margin-top: 50px;
+}
+    .card-title img{
+        width: 150px
+    }

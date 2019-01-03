@@ -1,0 +1,17 @@
+<div class="wrapper">
+
+    <div ng-include src="'app/layout/sidebar.html'"></div>
+
+    <div class="main-panel">
+        <div ng-include src="'app/layout/header.html'"></div>
+
+        <div class="content">
+            <div class="container-fluid">
+                <ui-view></ui-view>
+            </div>
+        </div>
+
+        <div ng-include src="'app/layout/footer.html'"></div>
+
+    </div>
+</div>

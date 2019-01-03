@@ -1,0 +1,122 @@
+
+
+<nav id="navbar" class="navbar navbar-transparent navbar-absolute">
+    <div class="container-fluid">
+        <div class="navbar-minimize">
+            <button id="minimizeSidebar" class="btn btn-round btn-white btn-fill btn-just-icon">
+                <i class="material-icons visible-on-sidebar-regular">more_vert</i>
+                <i class="material-icons visible-on-sidebar-mini">view_list</i>
+            </button>
+        </div>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"> Dashboard </a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="col-md-6">
+                    <!-- <div class="card">
+                        <div class="card-content text-center"> -->
+                                <button type="button" class="btn btn-md btn-rose" data-toggle="modal" ng-click="getFeeData()" data-target="#myModal">
+                                       Fee Structure
+                                      </button>
+                        <!-- </div>
+                    </div> -->
+                </li>
+                <li class="dropdown col-md-2">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="material-icons">notifications</i>
+                        <span class="notification">5</span>
+                        <p class="hidden-lg hidden-md">
+                            Notifications
+                            <b class="caret"></b>
+                        </p>
+                    </a>
+                    
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">Mike John responded to your email</a>
+                        </li>
+                        <li>
+                            <a href="#">You have 5 new tasks</a>
+                        </li>
+                        <li>
+                            <a href="#">You're now friend with Andrew</a>
+                        </li>
+                        <li>
+                            <a href="#">Another Notification</a>
+                        </li>
+                        <li>
+                            <a href="#">Another One</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown col-md-2">
+                    <a role="button" href="#/login" title="Logout" class="dropdown-toggle" onclick="sessionStorage.removeItem('userDetails')">
+                        <i class="material-icons">power_settings_new</i>
+                        <p class="hidden-lg hidden-md">Profile</p>
+                    </a>
+                    <!-- <ul class="dropdown-menu" ng-if="userMenu">
+                        <li>
+                            <a role="button" ng-click="logOut()"></a>
+                        </li>
+                    </ul> -->
+                </li>
+                <li>
+                    
+                </li>
+                <li class="separator hidden-lg hidden-md"></li>
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                    <div class="material-datatables clearfix">
+                        <table id="feeStructureTable" custom-datatable ng-if="feeStructureTable.dataLoaded" options="feeStructureTable.dtOptions" class="table table-striped table-no-bordered table-hover" cellspacing="0" width="100%" style="width:100%"></table>
+                                <!-- <thead>
+                                    <tr>
+                                        <th>Groups</th>
+                                        <th>Course</th>
+                                        <th>Total Fee</th>
+                                        <th>Admin Fee</th>
+                                        <th>Tution Fee</th>
+                                        <th>1st Term</th>
+                                        <th>2nd Term</th>
+                                        <th>3rd term</th>
+                                        <th>4th Term</th>
+                                    </tr>    
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td>{{feeData.feeStructure[0].courseName}}</td>
+                                        <td>{{feeData.feeStructure[0].totalFees}}</td>
+                                        <td>{{feeData.feeStructure[0].administrativeFees}}</td>
+                                        <td>{{feeData.feeStructure[0].tutionFees}}</td>
+                                    </tr>
+                                </tbody> -->
+                            </table>
+    
+                        </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-rose">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>

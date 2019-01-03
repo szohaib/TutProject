@@ -1,0 +1,158 @@
+{
+    "reportsData":
+        {
+            "admissionChart": 
+                {
+                    "zone":[
+                                {
+                            
+                                    "drilldown":"Delhi",
+                                    "name":"Delhi",
+                                    "visible": true,
+                                    "y":75
+                                },
+                                {
+                            
+                                    "drilldown":"Mumbai",
+                                    "name":"Mumbai",
+                                    "visible": true,
+                                    "y":55
+                                },
+                                {
+                            
+                                    "drilldown":"Secunderabad",
+                                    "name":"Secunderabad",
+                                    "visible": true,
+                                    "y":115
+                                }
+                            ],
+                    "dat":[
+                                {
+                                    "id": "Delhi",
+                                    "name": "Delhi",
+                            
+                                    "data":[
+                                        {"name":"Yamuna Vihar", "y":50},
+                                        {"name":"Zakir Nagar", "y":25}
+                                    ]
+                
+                                },
+                                {
+                                    "id": "Zakir Nagar",
+                                    "name": "Zakir Nagar",
+                                    "data": [
+                                        ["Girls", 10],
+                                        ["Boys",15]
+                                    ]
+                                },
+                                {
+                                    "id": "Mumbai",
+                                    "name": "Mumbai",
+                                    "data":[
+                                        ["Yamuna Vihar",50],
+                                        ["Zakir Nagar", 3],
+                                        ["Random",2]
+                                    ]
+                                },
+                                {
+                                    "id": "Secunderabad",
+                                    "name": "Secunderabad",
+                                    "data":[
+                                        ["Yamuna Vihar",50],
+                                        ["Zakir Nagar", 65]
+                                    ]
+                                }
+                        ]
+                },
+                "concessionChart":{
+                    "zone2":[
+
+                                {
+                                    
+                                    "drilldown":"Delhi",
+                                    "name":"Delhi",
+                                    "visible": true,
+                                    "y":15
+                                },
+                                {
+                                    
+                                    "drilldown":"Mumbai",
+                                    "name":"Mumbai",
+                                    "visible": true,
+                                    "y":20
+                                },
+                                {
+                                    
+                                    "drilldown":"Secunderabad",
+                                    "name":"Secunderabad",
+                                    "visible": true,
+                                    "y":12
+                                }
+                    ],
+                    "dat2":[
+                                {
+                                    "id": "Delhi",
+                                    "name": "Delhi",
+                                    "data":[
+                                        {"name":"Yamuna Vihar", "y":50,"drilldown":"Yamuna Vihar"},
+                                        {"name":"Zakir Nagar", "y":25,"drilldown":"Zakir Nagar"}
+                                    ]
+                        
+                                },
+                                {
+                                    "id": "Yamuna Vihar",
+                                    "name": "Yamuna Vihar",
+                                    "data":[["Student1",5],
+                                            ["Student2",10],
+                                            ["Student3",15]]
+                                },
+                                {
+                                    "id": "Zakir Nagar",
+                                    "name": "Zakir Nagar",
+                                    "data": [
+                                        ["Girls", 10],
+                                        ["Boys",15]
+                                    ]
+                                },
+                                {
+                                    "id": "Mumbai",
+                                    "name": "Mumbai",
+                                    "data":[
+                                        ["Yamuna Vihar",50],
+                                        ["Zakir Nagar", 3],
+                                        ["Random",2]
+                                    ]
+                                },
+                                {
+                                    "id": "Secunderabad",
+                                    "name": "Secunderabad",
+                                    "data":[
+                                        ["Yamuna Vihar",50],
+                                        ["Zakir Nagar", 65]
+                                    ]
+                                }
+                        
+                    ]
+                },
+            "admissionEnquiry":{
+                            "branch": [
+                                "Yamuna Vihar", "Zakir Nagar", "Random","Random2"
+                            ],
+                            "data": [
+                                {
+                                    "name":"Admissions",
+                                    "data":[
+                                        24,55,12,10
+                                    ]
+                                },
+                                {
+                                    "name":"Enquiry",
+                                    "data":[
+                                        25,60,12,20
+                                    ]
+                                }
+                            ]
+                        }
+    
+            }
+}

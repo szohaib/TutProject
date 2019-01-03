@@ -1,0 +1,69 @@
+.ms-logos{
+    /* background-image: url('../img/ms-junior-logo.png'); */
+        width: 110px !important;
+}
+.line-height-140{
+            line-height: 140px;
+    height: 140px;
+}
+.custom-control-label{
+        color: black !important;
+    /* font-weight: 300; */
+}
+.margin-top-20{
+        margin-top: 20px;
+}
+.inline-block{
+    display: inline-block;
+}
+.remove-all-margins{
+    margin:0 !important;
+}
+.remove-all-padding{
+    padding:0 !important;
+}
+.remove-top-margins{
+    margin-top: 0 !important;
+}
+.remove-top-margin{
+    margin-top:0 !important;
+}
+.remove-left-padding{
+    padding-left: 0;
+}
+.top-margin-15{
+    margin-top: 15px;
+}
+.neg-margin-20{
+    margin-top: -20px;
+}
+.fa-mobile-phone{
+    font-size:18px !important;
+}
+.fa{
+    color: #E91E63;
+}
+.add-btn i{
+    font-size: 30px !important;
+}
+education-level .nav-pills>li.active>a,
+.radio input[type=radio]:checked~.check{
+    background-color: #E91E63 !important;
+}
+.font-size-18{
+    font-size: 18px !important;
+}
+.header-icon{
+        padding: 5px;
+}
+.btn-cancel{
+            margin-left: 10px;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+        background-color: #E91E63 !important;
+        border-color: #E91E63 !important;
+}
+.fit-content-center{
+    width: fit-content;
+    margin: 0 auto !important;
+}
